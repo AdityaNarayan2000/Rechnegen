@@ -1,0 +1,19 @@
+body{
+  font-size: 1.5rem;
+}
+.benefits{
+  padding: 70px;
+}
+.benefits p{
+  padding: 10px;
+}
+
+.big{
+  font-size: 4rem;
+}
+.medium{
+  font-size: 2.5rem;
+}
+.small{
+  font-size: 1.5rem;
+}

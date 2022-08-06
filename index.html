@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rechnegen Services</title>
+  <!-- navbar  -->
+  <link rel="stylesheet" href="nav/nav.css">
+  <script src="nav/nav.js" defer></script>
+  <!-- slider -->
+  <link rel="stylesheet" href="slider/slider.css">
+  <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js" defer></script>
+  <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/CSSRulePlugin3.min.js" defer></script>
+  <script src="slider/slider.js" defer></script>
+  <!-- stats -->
+  <link rel="stylesheet" href="style/shape.css">
+  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  <!-- generic style -->
+  <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+  <nav>
+    <div class="navbar">
+      <i class='bx bx-menu'></i>
+      <div class="logo"><a href="#">Rechnegen</a></div>
+      <div class="nav-links">
+        <div class="sidebar-logo">
+          <p class="logo-name">Rechnegen</p>
+          <i class='bx bx-x'></i>
+        </div>
+        <ul class="links">
+          <li><a href="#">HOME</a></li>
+          <li>
+            <a href="#">HTML & CSS</a>
+            <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
+            <ul class="htmlCss-sub-menu sub-menu">
+              <li><a href="#">Web Design</a></li>
+              <li><a href="#">Login Forms</a></li>
+              <li class="more">
+                <p><a href="#">More</a>
+                  <i class='bx bxs-chevron-right arrow more-arrow'></i>
+                </p>
+                <ul class="more-sub-menu sub-menu">
+                  <li><a href="#">Neumorphism</a></li>
+                  <li><a href="#">Pre-loader</a></li>
+                  <li><a href="#">Glassmorphism</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">JAVASCRIPT</a>
+            <i class='bx bxs-chevron-down js-arrow arrow '></i>
+            <ul class="js-sub-menu sub-menu">
+              <li><a href="#">Dynamic Clock</a></li>
+              <li><a href="#">Form Validation</a></li>
+              <li><a href="#">Card Slider</a></li>
+              <li><a href="#">Complete Website</a></li>
+            </ul>
+          </li>
+          <li><a href="#">ABOUT US</a></li>
+          <li><a href="#">CONTACT US</a></li>
+        </ul>
+      </div>
+      <div class="search-box">
+        <i class='bx bx-search'></i>
+        <div class="input-box">
+          <input type="text" placeholder="Search...">
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="benefits">
+    <p class="big">Rechnegen | DevOps Services & Benefits</p>
+    <p><strong>Continuous Integration</strong> CI is a software
+      development practice where developers regularly
+      merge their code changes into a central repository,
+      which is used for automated builds and to run tests
+    </p>
+    <p><strong>Continuous Delivery</strong> CD refers to the software
+      development practice where code changes are
+      automatically built, tested, and prepared for release
+      to production
+    </p>
+    <p><strong>Microservices</strong>
+      it's architecture is a design approach
+      wherein instead of a monolithic build, a set of small
+      services is combined to create a single application
+    </p>
+    <p><strong>Infrastructure as Code</strong>
+      IAC is a practice in which
+      infrastructure is provisioned and managed using code
+      and software development techniques, such as
+      version control and continuous integration
+    </p>
+    <p><strong>Monitoring and Logging </strong>
+      This refers to the practice of
+      monitoring metrics and logs to judge the impact of
+      application and infrastructure performance on the
+      end-user’s experience
+    </p>
+  </div>
+  <section>
+    <div class="brief">
+      <div class="quad">
+        <div id="rectangle">
+          <p class="medium">
+            One stop solution for all&nbspyour&nbspcloud related requirements.
+          </p>
+          <br>
+          <p class="small">
+            Expert guidance so you can maximize the benefits of modern cloud.
+          </p>
+        </div>
+        <div id="triangle-topleft"></div>
+        <div class="quadpoint">
+          <div class="big">
+            <p>4+</p>
+            <p class="medium">Years In Business</p>
+            <p class="small">
+              Expert guidance.
+            </p>
+          </div>
+          <div class="big">
+            <p>50+</p>
+            <p class="medium">Number Of Clients</p>
+            <p class="small">
+              Expert guidance.
+            </p>
+          </div>
+          <div class="big">
+            <p>30+</p>
+            <p class="medium">Cloud Certifications</p>
+            <p class="small">
+              Expert guidance.
+            </p>
+          </div>
+          <div class="big">
+            <p>60+</p>
+            <p class="medium">full-time employees</p>
+            <p class="small">
+              Expert guidance.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container">
+      <div class="slider">
+
+        <div class="box1 box">
+          <div class="bg"></div>
+          <div class="details">
+            <h1>Rechnegen| Betting platform: Amazon Web Services</h1>
+            <p>
+              About the client
+              Our client had a betting platform like Dream 11. They needed to have
+              secure environment and high availability so that the server does not
+              goes down in any circumstances.
+              <!--             
+                Scope of work
+                ▪ Creation of AWS account and enabling MFA
+                ▪ Creation of VPC, NAT Gateway, Private subnet, Public subnet etc.
+                ▪ Deploying the servers on EC2.
+                ▪ Configuration of Autoscaling and enabling load balancer.
+                ▪ Creation of RDS in private subnet and creation of OpenVPN to
+                provide secure access to the server.
+                ▪ Installation of WAF and AWS Shield to impart extra security.
+                
+                Outcome
+                • The customers services were deployed
+                successfully on AWS.
+                • Proper security measures were implemented
+                and attacks were prevented.
+                • The customer is yet taking managed services
+                we are responsible for maintenance of
+                their servers.
+                • Any issues are overcome by our team within
+                response time of less than 1 hour. -->
+            </p>
+            <button>Check Now</button>
+          </div>
+
+          <div class="illustration">
+            <div class="inner"></div>
+          </div>
+        </div>
+
+
+        <div class="box2 box">
+          <div class="bg"></div>
+          <div class="details">
+            <h1>Rechnegen| Database& VM Migration</h1>
+            <p>
+              Problem Statement
+              Our client needed to migrate their on-premises server to AWS. They had multiple Application and Database
+              server
+              running which they needed to be migrate and perform tests and then finalize the deployment.
+
+              <!-- Outcome
+                • We did lift and shift migration of their servers.
+                • It took around 10 days to migrate 3 application servers and 2 database servers.
+                • The client servers were migrated and now they are leveragingAWS as their hosted
+                environment.
+                • The applications and database were migrated with zero-downtime. -->
+            </p>
+            <button>Check Now</button>
+          </div>
+
+          <div class="illustration">
+            <div class="inner"></div>
+          </div>
+        </div>
+
+        <div class="box3 box">
+          <div class="bg"></div>
+          <div class="details">
+            <h1>Rechnegen| Database& VM Migration</h1>
+            <p>
+              Problem Statement
+              Our client needed to migrate their on-premises server to AWS. They had multiple Application and Database
+              server
+              running which they needed to be migrate and perform tests and then finalize the deployment.
+
+              <!-- Outcome
+                • We did lift and shift migration of their servers.
+                • It took around 10 days to migrate 3 application servers and 2 database servers.
+                • The client servers were migrated and now they are leveragingAWS as their hosted
+                environment.
+                • The applications and database were migrated with zero-downtime. -->
+            </p>
+            <button>Check Now</button>
+          </div>
+
+          <div class="illustration">
+            <div class="inner"></div>
+          </div>
+        </div>
+
+        <div class="box4 box">
+          <div class="bg"></div>
+          <div class="details">
+            <h1>Why do you need Rechnegen your AWS Cloud Partner?</h1>
+            <p>
+              Why should you have a consulting partner for your cloud?
+              <!-- The Cloud is a complex and often complicated environment that
+                calls for years of training and experience to master it. Managing its
+                complexities while managing your core business can be a big
+                challenge. But there is an easier alternative. Let your Cloud Partner
+                do it for you. Leverage Rechnegen experience in cloud deployments,
+                consulting and management services to earn the peace of mind that
+                comes from knowing your Cloud Workloads are in safe hands. -->
+            </p>
+            <button>Check Now</button>
+          </div>
+
+          <div class="illustration">
+            <div class="inner"></div>
+          </div>
+        </div>
+
+        <div class="box5 box">
+          <div class="bg"></div>
+          <div class="details">
+            <h1>
+              Cloud management Duty overburdening you?
+            </h1>
+            <p>
+              Are the responsibilities of cloud workload management overburdening you?
+              <!-- Don’t let the burden of managing your cloud compromise your
+                business’s productivity and revenue. Allow our
+                team of cloud specialists and technical experts to
+                take over the drudgery of managing all your cloud
+                workloads. -->
+              <button>Check Now</button>
+            </p>
+          </div>
+
+          <div class="illustration">
+            <div class="inner"></div>
+          </div>
+        </div>
+
+      </div>
+
+      <svg xmlns="http://www.w3.org/2000/svg" class="prev" width="56.898" height="91" viewBox="0 0 56.898 91">
+        <path d="M45.5,0,91,56.9,48.452,24.068,0,56.9Z" transform="translate(0 91) rotate(-90)" fill="#fff" />
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" class="next" width="56.898" height="91" viewBox="0 0 56.898 91">
+        <path d="M45.5,0,91,56.9,48.452,24.068,0,56.9Z" transform="translate(56.898) rotate(90)" fill="#fff" />
+      </svg>
+      <div class="trail">
+        <div class="box1 active">1</div>
+        <div class="box2">2</div>
+        <div class="box3">3</div>
+        <div class="box4">4</div>
+        <div class="box5">5</div>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>

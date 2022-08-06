@@ -1,0 +1,49 @@
+:root{
+  --sky:#0354bfd9;
+  --blue:#161348;
+}
+.brief{
+  background: var(--blue);
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  /* display: flex; */
+  flex-direction: row;
+}
+.quad{
+  position: relative;
+  top: -50px;
+  display: flex;
+  margin: 50px 0 20px 0;
+}
+.quadpoint{
+  width: 50%;
+  margin: 70px 0 0px 0;
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.quadpoint div{
+  width: 50%;
+  padding: 15px;
+}
+
+#rectangle {
+  width: 40%;
+  height: 70vh;
+  background-color: var(--sky);
+  margin: 0;
+  padding: 10px;
+  border: 0;
+  padding-top: 110px;
+  padding-left: 70px;
+  padding-right: 50px;
+  font-weight: 400;
+  
+}
+#triangle-topleft {
+width: 0;
+height: 0;
+border-top: 70vh solid var(--sky);
+border-right: 20vh solid transparent;
+}
